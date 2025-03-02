@@ -34,6 +34,7 @@ import Frame12 from "../../assets/About/Frame12.png";
 import Frame13 from "../../assets/About/Frame13.png";
 import Frame14 from "../../assets/About/Frame14.png";
 import Frame15 from "../../assets/About/Frame15.png";
+import Frame16 from "../../assets/About/Frame16.png";
 
 function AboutUs() {
   return (
@@ -152,17 +153,18 @@ function AboutUs() {
           <img src={partner2} alt="" />
           <img src={partner3} alt="" />
           <img src={partner4} alt="" />
-          <img src={partner5} alt="" />
           <img src={partner6} alt="" />
+          <img src={partner5} alt="" />
           <img src={Frame7} alt="" />
           <img src={Frame8} alt="" />
           <img src={Frame9} alt="" />
           <img src={Frame10} alt="" />
+          <img src={Frame15} alt="" />
           <img src={Frame11} alt="" />
           <img src={Frame12} alt="" />
           <img src={Frame13} alt="" />
           <img src={Frame14} alt="" />
-          <img src={Frame15} alt="" />
+          <img src={Frame16} alt="" />
         </div>
       </section>
     </div>

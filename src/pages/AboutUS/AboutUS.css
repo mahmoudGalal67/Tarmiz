@@ -53,8 +53,6 @@ main.about-us .left .item > div span {
 /* Word_section */
 
 .word {
-  background-image: url(../../assets/About/GroupB.png);
-  background-size: cover;
   position: relative;
   margin: 45px 0;
 }
@@ -63,6 +61,8 @@ main.about-us .left .item > div span {
   border-radius: 80px;
   color: white;
   position: relative;
+  background-image: url(../../assets/About/GroupB.png);
+  background-size: cover;
 }
 .word .wrapper .pp {
   font-family: Lama Sans;
@@ -76,7 +76,7 @@ main.about-us .left .item > div span {
 
 .word .wrapper .man {
   position: absolute;
-  width: 50%;
+  width: 40%;
   bottom: 0;
 }
 .word .quote {
