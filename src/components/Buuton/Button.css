@@ -1,0 +1,25 @@
+.button-wrapper {
+  background-color: #f8f8f8;
+  border: 1px solid #0094f8;
+  color: white;
+  border-radius: 40px;
+  width: 160px;
+  margin-left: auto;
+  margin-top: 18px;
+}
+
+.button-wrapper a {
+  background-color: #0094f8;
+  border-radius: 40px;
+  padding: 8px 12px;
+  font-family: Lama Sans;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 14.14px;
+  letter-spacing: 0%;
+}
+
+.button-wrapper a .arrow {
+  background-color: #f8f8f8;
+  border-radius: 50%;
+}

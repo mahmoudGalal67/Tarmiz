@@ -1,0 +1,161 @@
+main.about-us h2 {
+  font-family: Lama Sans;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 58.58px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+
+main.about-us .right .desc {
+  font-family: Lama Sans;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 42.42px;
+  letter-spacing: 0%;
+  text-align: right;
+  margin: 18px 0;
+}
+
+main.about-us .right .desc span {
+  color: var(--primary);
+}
+
+main.about-us .left {
+  background-image: url(../../assets/About/Group.png);
+  background-size: cover;
+}
+main.about-us .left .item > div {
+  font-family: Lama Sans;
+  font-weight: 800;
+  font-size: 78px;
+  line-height: 78.78px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main.about-us .left .item p {
+  font-family: Lama Sans;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24.24px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #737373;
+}
+main.about-us .left .item > div span {
+  color: var(--primary);
+
+  font-weight: 900;
+  font-size: 64px;
+  margin: 0 12px;
+}
+
+/* Word_section */
+
+.word {
+  background-image: url(../../assets/About/GroupB.png);
+  background-size: cover;
+  position: relative;
+  margin: 45px 0;
+}
+.word .wrapper {
+  background-color: var(--primary);
+  border-radius: 80px;
+  color: white;
+  position: relative;
+}
+.word .wrapper .pp {
+  font-family: Lama Sans;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 68.68px;
+  letter-spacing: 0%;
+  text-align: right;
+  z-index: 1000;
+}
+
+.word .wrapper .man {
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+}
+.word .quote {
+  position: absolute;
+  right: 10%;
+  z-index: 100;
+  top: 0;
+}
+
+/* our-vision */
+
+.our-vision h3 {
+  font-family: Lama Sans;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 36.36px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: var(--primary);
+}
+.our-vision p {
+  font-family: Lama Sans;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: end;
+}
+
+/* our-partners */
+
+.our-partners {
+  background-color: white;
+}
+.our-partners h3 {
+  font-family: Lama Sans;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 60.6px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.our-partners p {
+  font-family: Lama Sans;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 24px 0;
+}
+.our-partners .wrapper > img {
+  max-width: 240px;
+}
+
+@media (max-width: 500px) {
+  main.about-us h2 {
+    font-size: 38px;
+  }
+  main.about-us .right .desc {
+    font-size: 28px;
+  }
+  main.about-us .left .item > div span {
+    font-size: 48px;
+  }
+  main.about-us .left .item > div {
+    font-size: 48px;
+  }
+  .word .wrapper .man {
+    display: none;
+  }
+  .word .wrapper .pp {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .our-partners .wrapper > img {
+    max-width: 48%;
+  }
+  .our-partners h3 {
+    font-size: 36px;
+  }
+}
